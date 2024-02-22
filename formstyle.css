@@ -1,0 +1,9 @@
+input {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  margin-bottom: 10px;
+}
+.noborder {
+  border: none;
+}

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application Form</title>
+    <link rel="stylesheet" href="./formstyle.css">
+    <center>
+    <h1 ><b>Application Form</b></h1>
+
+  </head>
+  <body style="background-color: lightblue" text-align = "center" >
+    <form>
+      <p style="background-color: #e2e2eb" style="font-size: large">
+        A. General Questions
+      </p>
+
+      <label for="P.I's Name"></label>Proposed Insured's Name</label>
+
+      <input
+        type="text"
+        id="P.I's Name"
+        placeholder="| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |"
+        size="50"
+      />
+
+      <br />
+      <label for="Capital letters">(please use capital letters)</label
+      ><input
+        type="text"
+        name="Capital Letters"
+        id="Capital letters"
+        placeholder="| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |  | | | | | | | | | | | | | | | | |"
+        size="50"
+      />
+      <br />
+      <label for="Birth Date">Birth Date:</label
+      ><input
+        type="text"
+        id="Birth Date"
+        placeholder="                /             /"
+        size="20"
+        style="background-color: transparent; border: none; border-bottom: 1px solid;width: 8cm;"
+        
+      />
+      <p>
+        Gender:<input type="radio" name="Gender" value="Male" />Male
+        <input type="radio" name="Gender" value="Female" />Female
+      </p>
+      <label for="Address">Address:</label
+      ><input type="text" name="Address" id="Address"  size="35" class="underline-input" style="background-color: transparent; border: none; border-bottom: 1px solid;width: 8cm;"/>
+      <br />
+      <label for="Phone num">Phone Number:</label
+      ><input
+        type="tel"
+        name="phone num"
+        id="Phone num"
+        placeholder="0300-0000000"
+       class="underline-input"
+       style="background-color: transparent; border: none; border-bottom: 1px solid;width: 8cm;"
+      />
+      <label for="Email Address">Email Address</label
+      ><input type="email" name="email" id="Email Address" class="underline-input"
+      style="background-color: transparent; border: none; border-bottom: 1px solid;width: 8cm;" />
+      <br />
+      <label for="Id num">ID Number:</label
+      ><input type="text" name="id num" id="Id num" class="noborder"
+      style="background-color: transparent; border: none; border-bottom: 1px solid;width: 8cm;" />
+      <label for="S.S num">Socail Security Number</label
+      ><input
+        type="text"
+        name="S.s num"
+        id="S.S num"
+        placeholder="42201-7777777-3"
+        style="background-color: transparent; border: none; border-bottom: 1px solid;width: 8cm;"
+      />
+      <p>
+        Status: <input type="radio" name="Status" value="Single" />Single
+        <input type="radio" name="Status" value="Married" />Married
+        <input type="radio" name="Status" value="Devorced" />Devorced
+        <input type="radio" name="Status" value="Others" />Others
+      </p>
+      <label for="Occupation">Occupation</label
+      ><input type="text" name="Occupation" id="Occupation"
+      style="background-color: transparent; border: none; border-bottom: 1px solid;width: 8cm;" />
+
+      Are you a retiree?
+      <input type="radio" name="retiree" value="Yes" />Yes
+      <input type="radio" name="retiree" value="No" />No
+      <p style="background-color: #e2e2eb" style="font-size: large">
+        B. Type of Health Coverage
+      </p>
+      <table>
+        <tr>
+          <th scope="row" style="border: 5px solid black">
+            <label for ="Employee">Employee:</label>
+            <input type="radio" name="Employee" value="Yes">Yes
+            <input type="radio" name="Employee" value="No">No
+          </th>
+          <th scope="row" style="border: 5px solid black" >
+            <label for="Spouse" >Spouse:</label>
+            <input type="radio" name="Spouse" value="Yes">Yes
+            <input type="radio" name="Spouse" value="No">No
+          </th>
+          <th scope="row" style="border: 5px solid black">
+            <label for="Children" >Children:</label>
+            <input type="radio" name="Children" value="Yes">Yes
+            <input type="radio" name="Children" value="No">No
+          </th>
+
+        </tr>
+        <tr>
+          <td style="border: 5px solid black">
+            <label for="Plan Choice">Plan Choice:</label>
+          </td>
+          <td style="border: 5px solid black">
+            <label for="Plan Choice">Plan Choice:</label>
+          </td>
+          <td style="border: 5px solid black">
+            <label for="Plan Choice">Plan Choice:</label>
+          </td>
+        </tr>
+      </table>
+      <table>
+        <p>Complete if Spouse/Children are proposed for Insurance:</p>
+        <tr>
+            <th scope = "column"  style= "border: 5px solid black ; width: 2pc; height: 2pc;" >Name</th>
+            <th scope = "column" style="border: 5px solid black ;">SSN. NO</th>
+            <th scope="column" style="border: 5px solid black ;">Relationship to proposed insured</th>
+            <th scope="column" style="border: 5px solid black ;" >Birth Date</th>
+            <th scope="col" style="border: 5px solid black ;">Age</th>
+            <th scope="col" style="border: 5px solid black ;">Sex</th>
+        </tr>
+        <tr>
+            <td scope="row" style="border: 5px solid black;  width: 1pc; height: 1pc;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            
+        </tr>
+        <tr>
+            <td scope="row" style="border: 5px solid black; width: 1pc; height: 1pc;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            
+        </tr>
+        <tr>
+            <td scope="row" style="border: 5px solid black; width: 1pc; height: 1pc;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            
+        </tr>
+        <tr>
+            <td scope="row" style="border: 5px solid black; width: 1pc; height: 1pc;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            
+        </tr>
+        <tr>
+            <td scope="row" style="border: 5px solid black; width: 1pc; height: 1pc;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            
+        </tr>
+        <tr>
+            <td scope="row" style="border: 5px solid black; width: 1pc; height: 1pc;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            
+        </tr>
+        <tr>
+            <td scope="row" style="border: 5px solid black; width: 1pc; height: 1pc;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            <td scope="row" style="border: 5px solid black;" ></td>
+            
+        </tr>
+
+      </table>
+
+      <p style="background-color: #e2e2eb" style="font-size: large">
+        C. The Policy
+      </p>
+      <label for="Units">Units</label
+      ><input type="text" name="units" id="Units" 
+      style="background-color: transparent; border: none; border-bottom: 1px solid;width: 8cm;"/>
+      <label for="Annual Premium">Annual Premium</label
+      ><input type="text" name="annual premium" id="Annual Premium" 
+      style="background-color: transparent; border: none; border-bottom: 1px solid;width: 8cm;"/>
+      <p>
+        Payment Mode <input type="radio" name="Pay" value="Annual" />ANNUAL
+        <input type="radio" name="Pay" value="Semi-Annual" />SEMI-ANNUAL
+        <input type="radio" name="Pay" value="Monthly PAT" />Monthly
+        PAT(complete PAT card)
+      </p>
+      <label for="Cash with app">Cash with Application: $</label
+      ><input type="text" name="Cash app" id="Cash with app" size="60"
+      style="background-color: transparent; border: none; border-bottom: 1px solid;width: 8cm;" />
+      <br>
+      <label for="Planned Modal Premium">Planned Modal Pemium: $</label
+      ><input type="text" name="Modal Premium" id="Planned Modal Premium" size="60"
+      style="background-color: transparent; border: none; border-bottom: 1px solid;width: 8cm;"/>
+      <br />
+      <p style="color: beige;">Terms & Conditions</p>
+      <br />
+      <p style="color: beige;">
+        Improvements should be measured regularly and <br />
+        assesed in order for you to know what is beneficial <br />
+        and what is not. This will help you set new targets.
+      </p><div align = "right"><label for="Signature">Signature:</label>
+        <input type="text" name="Sign" id="Sign" class="underline-input">
+        <br>
+        <label for="Date">Date:</label>
+        <input type="date" name="Date" id="Date" style="background-color: transparent; border: none; border-bottom: 1px solid;width: 8cm;"></div>
+    </form>
+</center>
+  </body>
+</html>
